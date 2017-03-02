@@ -1,11 +1,14 @@
 var map;
 
+/** **/
+var odinsgade = {
+    lat: 55.697599,
+    lng: 12.550017
+};
+
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
-        center: {
-            lat: -34.397,
-            lng: 150.644
-        },
-        zoom: 8
+        center: odinsgade,
+        zoom: 18
     });
 }
